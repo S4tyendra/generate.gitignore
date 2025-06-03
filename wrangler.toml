@@ -5,3 +5,4 @@ compatibility_date = "2025-06-03"
 
 [observability]
 enabled = true
+routes = ["gitignore.devh.in/*"]
