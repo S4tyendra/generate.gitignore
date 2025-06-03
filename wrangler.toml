@@ -1,8 +1,11 @@
 name = "gitignore"
-main = "src/worker.js"
+main = "src/worker"
 workers_dev = true
 compatibility_date = "2025-06-03"
 
+[[routes]]
+pattern = "gitignore.devh.in/*"
+zone_name = "devh.in"
+
 [observability]
 enabled = true
-routes = ["gitignore.devh.in/*"]
