@@ -1,8 +1,7 @@
 name = "gitignore"
-main = "src/entry.py"
+main = "src/worker.js"
 workers_dev = true
 compatibility_date = "2025-06-03"
-compatibility_flags = [ "python_workers" ]
 
 [observability]
 enabled = true
