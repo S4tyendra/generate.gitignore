@@ -8,7 +8,7 @@ cd temp_gitignore
 echo "📝 Generating gitignore files array..."
 
 cat > ../gitignorefiles.js << 'EOF'
-const gitignorefiles = [
+export const gitignorefiles = [
 EOF
 
 # Process all .gitignore files recursively
