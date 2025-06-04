@@ -9,3 +9,7 @@ zone_name = "devh.in"
 
 [observability]
 enabled = true
+
+[assets]
+directory = "./public"
+binding = "ASSETS"
