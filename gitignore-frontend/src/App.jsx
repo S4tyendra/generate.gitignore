@@ -246,7 +246,9 @@ const SearchPanel = React.memo(({
           ) : (
             <>
               <Sparkles className="w-4 h-4 mr-2 group-hover:animate-pulse" />
-              Generate .gitignore ({selectedTemplates.length})
+              Generate .gitignore ({selectedTemplates.length > 0 && (
+      <> ({selectedTemplates.length})</>
+    )})
             </>
           )}
         </Button>
